@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citizenship Civic Test</title>
+    <style>
+        body {
+            background-color: #B3E5FC;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background-color: #E1F5FE;
+            color: #01579B;
+            width: 80vw;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 3px solid #0288D1;
+            border-radius: 10px;
+            position: absolute;
+            cursor: pointer;
+            backface-visibility: hidden;
+        }
+
+        .card.answer {
+            background-color: #4FC3F7;
+            color: #E1F5FE;
+        }
+
+        .card-container {
+            perspective: 1000px;
+            position: relative;
+            width: 80vw;
+            height: 80vh;
+        }
+
+        .card-flip {
+            transform: rotateY(180deg);
+        }
+
+        .card-slide {
+            animation: slide 0.5s;
+        }
+
+        @keyframes slide {
+            from { transform: translateY(100%); }
+            to { transform: translateY(0%); }
+        }
+    </style>
+</head>
+<body>
+    <div class="card-container" onclick="nextQuestion()">
+        <div class="card question" id="question"></div>
+        <div class="card answer" id="answer"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

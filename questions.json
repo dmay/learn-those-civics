@@ -1,10 +1,339 @@
 [
-    {"question":"haba haba 1", "answer":"laka laka 1"},
-    {"question":"haba haba 2", "answer":"laka laka 2"},
-    {"question":"haba haba 3", "answer":"laka laka 3"},
-    {"question":"haba haba 4", "answer":"laka laka 4"},
-    {"question":"haba haba 5", "answer":"laka laka 5"},
-    {"question":"haba haba 6", "answer":"laka laka 6"},
-    {"question":"haba haba 7", "answer":"laka laka 7"},
-    {"question":"haba haba 8", "answer":"laka laka 8"}
+    {
+        "question": "What is the supreme law of the land?",
+        "answer": "The Constitution"
+    },
+    {
+        "question": "What does the Constitution do?",
+        "answer": "It sets up the government, defines the government's powers, and protects the rights of the people."
+    },
+    {
+        "question": "What are the three branches of government?",
+        "answer": "Executive, Legislative, Judicial"
+    },
+    {
+        "question": "What is the function of the Executive branch?",
+        "answer": "To enforce laws"
+    },
+    {
+        "question": "What is the function of the Legislative branch?",
+        "answer": "To make laws"
+    },
+    {
+        "question": "What is the function of the Judicial branch?",
+        "answer": "To interpret laws"
+    },
+    {
+        "question": "What is the name of the national anthem?",
+        "answer": "The Star-Spangled Banner"
+    },
+    {
+        "question": "What is the capital of the United States?",
+        "answer": "Washington, D.C."
+    },
+    {
+        "question": "What are the two major political parties in the United States?",
+        "answer": "Democratic and Republican"
+    },
+    {
+        "question": "Who is the current President of the United States?",
+        "answer": "As of 2021, Joe Biden is the current President of the United States."
+    },
+    {
+        "question": "Who is the current Vice President of the United States?",
+        "answer": "As of 2021, Kamala Harris is the current Vice President of the United States."
+    },
+    {
+        "question": "Who becomes President if both the President and Vice President die or cannot serve?",
+        "answer": "The Speaker of the House of Representatives"
+    },
+    {
+        "question": "What is the name of the Speaker of the House of Representatives now?",
+        "answer": "As of 2021, the Speaker of the House of Representatives is Nancy Pelosi."
+    },
+    {
+        "question": "How many justices are on the Supreme Court?",
+        "answer": "Nine"
+    },
+    {
+        "question": "Who is the Chief Justice of the Supreme Court now?",
+        "answer": "As of 2021, John Roberts is the Chief Justice of the Supreme Court."
+    },
+    {
+        "question": "What is the highest court in the United States?",
+        "answer": "The Supreme Court"
+    },
+    {
+        "question": "What is the Bill of Rights?",
+        "answer": "The first ten amendments to the Constitution that protect individual rights and liberties."
+    },
+    {
+        "question": "What are the two houses of Congress?",
+        "answer": "The Senate and the House of Representatives"
+    },
+    {
+        "question": "How many senators are there?",
+        "answer": "100"
+    },
+    {
+        "question": "How many members are there in the House of Representatives?",
+        "answer": "435"
+    },
+    {
+        "question": "What is the economic system in the United States?",
+        "answer": "Capitalism"
+    },
+    {
+        "question": "What is the ‘rule of law’?",
+        "answer": "Everyone, including government officials, must follow the law."
+    },
+    {
+        "question": "What is the purpose of the 4th Amendment to the U.S. Constitution?",
+        "answer": "To protect citizens from unreasonable searches and seizures by the government."
+    },
+    {
+        "question": "What is the purpose of the 5th Amendment to the U.S. Constitution?",
+        "answer": "To protect citizens from self-incrimination and double jeopardy."
+    },
+    {
+        "question": "What is the purpose of the 1st Amendment to the U.S. Constitution?",
+        "answer": "To protect the freedom of speech, religion, press, assembly, and petition."
+    },
+    {
+        "question": "What is the purpose of the 2nd Amendment to the U.S. Constitution?",
+        "answer": "To protect the right to bear arms."
+    },
+    {
+        "question": "What is the purpose of the 3rd Amendment to the U.S. Constitution?",
+        "answer": "To prohibit the forced quartering of soldiers in citizens' homes."
+    },
+    {
+        "question": "What is the purpose of the 6th Amendment to the U.S. Constitution?",
+        "answer": "To protect the right to a fair and speedy trial, the right to an impartial jury, and the right to a lawyer."
+    },
+    {
+        "question": "What is the purpose of the 7th Amendment to the U.S. Constitution?",
+        "answer": "To protect the right to a trial by jury in civil cases."
+    },
+    {
+        "question": "What is the purpose of the 8th Amendment to the U.S. Constitution?",
+        "answer": "To prohibit excessive bail and fines, and to prohibit cruel and unusual punishment."
+    },
+    {
+        "question": "What is the purpose of the 9th Amendment to the U.S. Constitution?",
+        "answer": "To protect rights that are not specifically listed in the Constitution."
+    },
+    {
+        "question": "What is the purpose of the 10th Amendment to the U.S. Constitution?",
+        "answer": "To reserve powers not given to the federal government to the states or to the people."
+    },
+    {
+        "question": "What is the purpose of the Emancipation Proclamation?",
+        "answer": "To free slaves in Confederate states during the Civil War."
+    },
+    {
+        "question": "What is the purpose of the Gettysburg Address?",
+        "answer": "To honor those who died in the Civil War and to redefine the purpose of the war as a struggle for freedom and equality."
+    },
+    {
+        "question": "What is the purpose of the Civil Rights Act of 1964?",
+        "answer": "To outlaw discrimination based on race, color, religion, sex, or national origin."
+    },
+    {
+        "question": "What is the purpose of the Voting Rights Act of 1965?",
+        "answer": "To remove barriers to voting based on race."
+    },
+    {
+        "question": "What is the purpose of the Americans with Disabilities Act?",
+        "answer": "To prohibit discrimination against people with disabilities in employment, public accommodations, and other areas of life."
+    },
+    {
+        "question": "What is the purpose of the Social Security Act?",
+        "answer": "To provide financial assistance to elderly, disabled, and unemployed Americans."
+    },
+    {
+        "question": "What is the purpose of the Environmental Protection Agency?",
+        "answer": "To protect human health and the environment by enforcing environmental laws and regulations."
+    },
+    {
+        "question": "What is the capital of your state?",
+        "answer": "The answer will vary depending on the state."
+    },
+    {
+        "question": "What is the name of the current Speaker of the House of Representatives?",
+        "answer": "As of 2023, the current Speaker of the House of Representatives is Nancy Pelosi."
+    },
+    {
+        "question": "What is the name of the current Secretary of State?",
+        "answer": "As of 2023, the current Secretary of State is Antony Blinken."
+    },
+    {
+        "question": "What is the name of the national anthem?",
+        "answer": "The national anthem is The Star-Spangled Banner."
+    },
+    {
+        "question": "What is the name of the President of the United States?",
+        "answer": "As of 2023, the current President of the United States is Joe Biden."
+    },
+    {
+        "question": "What is the name of the Vice President of the United States?",
+        "answer": "As of 2023, the current Vice President of the United States is Kamala Harris."
+    },
+    {
+        "question": "What is the highest court in the United States?",
+        "answer": "The highest court in the United States is the Supreme Court."
+    },
+    {
+        "question": "Who is the Chief Justice of the Supreme Court now?",
+        "answer": "As of 2023, the current Chief Justice of the Supreme Court is John Roberts."
+    },
+    {
+        "question": "What is the name of the current Attorney General?",
+        "answer": "As of 2023, the current Attorney General is Merrick Garland."
+    },
+    {
+        "question": "What is the name of the current Secretary of Defense?",
+        "answer": "As of 2023, the current Secretary of Defense is Lloyd Austin."
+    },
+    {
+        "question": "What is the name of the current Secretary of the Treasury?",
+        "answer": "As of 2023, the current Secretary of the Treasury is Janet Yellen."
+    },
+    {
+        "question": "What is the name of the current Secretary of Homeland Security?",
+        "answer": "As of 2023, the current Secretary of Homeland Security is Alejandro Mayorkas."
+    },
+    {
+        "question": "What is the name of the current Secretary of Education?",
+        "answer": "As of 2023, the current Secretary of Education is Miguel Cardona."
+    },
+    {
+        "question": "What is the name of the current Secretary of Health and Human Services?",
+        "answer": "As of 2023, the current Secretary of Health and Human Services is Xavier Becerra."
+    },
+    {
+        "question": "What is the name of the current Secretary of Energy?",
+        "answer": "As of 2023, the current Secretary of Energy is Jennifer Granholm."
+    },
+    {
+        "question": "What is the supreme law of the land?",
+        "answer": "The Constitution"
+    },
+    {
+        "question": "What are the two major political parties in the United States?",
+        "answer": "Democratic and Republican"
+    },
+    {
+        "question": "What is the capital of the United States?",
+        "answer": "Washington, D.C."
+    },
+    {
+        "question": "What is the name of the national anthem?",
+        "answer": "The Star-Spangled Banner"
+    },
+    {
+        "question": "What is the highest court in the United States?",
+        "answer": "The Supreme Court"
+    },
+    {
+        "question": "Who is the Chief Justice of the Supreme Court now?",
+        "answer": "As of 2023, the current Chief Justice of the Supreme Court is John Roberts."
+    },
+    {
+        "question": "What is the name of the President of the United States?",
+        "answer": "As of 2023, the current President of the United States is Joe Biden."
+    },
+    {
+        "question": "What is the name of the Vice President of the United States?",
+        "answer": "As of 2023, the current Vice President of the United States is Kamala Harris."
+    },
+    {
+        "question": "What is the name of the Speaker of the House of Representatives now?",
+        "answer": "As of 2023, the current Speaker of the House of Representatives is Nancy Pelosi."
+    },
+    {
+        "question": "What is the economic system in the United States?",
+        "answer": "Capitalism"
+    },
+    {
+        "question": "What is the purpose of the 4th Amendment to the U.S. Constitution?",
+        "answer": "To protect citizens from unreasonable searches and seizures by the government."
+    },
+    {
+        "question": "What is the purpose of the 5th Amendment to the U.S. Constitution?",
+        "answer": "To protect citizens from self-incrimination and double jeopardy."
+    },
+    {
+        "question": "What is the purpose of the 1st Amendment to the U.S. Constitution?",
+        "answer": "To protect the freedom of speech, religion, press, assembly, and petition."
+    },
+    {
+        "question": "What is the name of the current Secretary of State?",
+        "answer": "As of 2023, the current Secretary of State is Antony Blinken."
+    },
+    {
+        "question": "What is the name of the current Attorney General?",
+        "answer": "As of 2023, the current Attorney General is Merrick Garland."
+    },
+    {"question": "What are the three branches of government?", "answer": "Executive, Legislative, Judicial"},
+{"question": "What is the function of the Executive branch?", "answer": "To enforce laws"},
+{"question": "What is the function of the Legislative branch?", "answer": "To make laws"},
+{"question": "What is the function of the Judicial branch?", "answer": "To interpret laws"},
+{"question": "What is the name of the current Secretary of Homeland Security?", "answer": "As of 2023, the current Secretary of Homeland Security is Alejandro Mayorkas."},
+{"question": "What is the name of the current Secretary of Education?", "answer": "As of 2023, the current Secretary of Education is Miguel Cardona."},
+{"question": "What is the name of the current Secretary of Health and Human Services?", "answer": "As of 2023, the current Secretary of Health and Human Services is Xavier Becerra."},
+{"question": "What is the name of the current Secretary of Energy?", "answer": "As of 2023, the current Secretary of Energy is Jennifer Granholm."},
+{"question": "What is the purpose of the Emancipation Proclamation?", "answer": "To free slaves in Confederate states during the Civil War."},
+{"question": "What is the purpose of the Gettysburg Address?", "answer": "To honor those who died in the Civil War and to redefine the purpose of the war as a struggle for freedom and equality."},
+{"question": "What is the purpose of the Civil Rights Act of 1964?", "answer": "To outlaw discrimination based on race, color, religion, sex, or national origin."},
+{"question": "What is the purpose of the Voting Rights Act of 1965?", "answer": "To remove barriers to voting based on race."},
+{"question": "What is the purpose of the Americans with Disabilities Act?", "answer": "To prohibit discrimination against people with disabilities in employment, public accommodations, and other areas of life."},
+{"question": "What is the purpose of the Social Security Act?", "answer": "To provide financial assistance to elderly, disabled, and unemployed Americans."},
+{"question": "What is the purpose of the Environmental Protection Agency?", "answer": "To protect human health and the environment by enforcing environmental laws and regulations."},
+{"question": "What is the name of the current Secretary of Defense?", "answer": "As of 2023, the current Secretary of Defense is Lloyd Austin."},
+{"question": "What is the name of the current Secretary of the Treasury?", "answer": "As of 2023, the current Secretary of the Treasury is Janet Yellen."},
+{"question": "What is the purpose of the 2nd Amendment to the U.S. Constitution?", "answer": "To protect the right to bear arms."},
+{"question": "What is the purpose of the 3rd Amendment to the U.S. Constitution?", "answer": "To prohibit the forced quartering of soldiers in citizens' homes."},
+{"question": "What is the purpose of the 6th Amendment to the U.S. Constitution?", "answer": "To protect the right to a fair and speedy trial, the right to an impartial jury, and the right to a lawyer."},
+{"question": "What is the purpose of the 7th Amendment to the U.S. Constitution?", "answer": "To protect the right to a trial by jury in civil cases."},
+{"question": "What is the purpose of the 8th Amendment to the U.S. Constitution?", "answer": "To prohibit excessive bail and fines, and to prohibit cruel and unusual punishment."},
+{"question": "What is the purpose of the 9th Amendment to the U.S. Constitution?", "answer": "To protect rights that are not specifically listed in the Constitution."},
+{"question": "What is the purpose of the 10th Amendment to the U.S. Constitution?", "answer": "To reserve powers not given to the federal government to the states or to the people."},
+{"question": "What is the name of the current Secretary of Transportation?", "answer": "As of 2023, the current Secretary of Transportation is Pete Buttigieg."},
+{"question": "What is the name of the current Secretary of Labor?", "answer": "As of 2023, the current Secretary of Labor is Marty Walsh."},
+{"question": "What is the name of the current Secretary of Agriculture?", "answer": "As of 2023, the current Secretary of Agriculture is Tom Vilsack."},
+{"question": "What is the name of the current Secretary of the Interior?", "answer": "As of 2023, the current Secretary of the Interior is Deb Haaland."},
+{"question": "What is the name of the current Secretary of Veterans Affairs?", "answer": "As of 2023, the current Secretary of Veterans Affairs is Denis McDonough."},
+{"question": "What is the name of the current Secretary of Commerce?", "answer": "As of 2023, the current Secretary of Commerce is Gina Raimondo."},
+{"question": "Who is the Governor of your state?", "answer": "The answer will vary depending on the state."},
+{"question": "Who are your state's Senators?", "answer": "The answer will vary depending on the state."},
+{"question": "What is the name of the current Secretary of Housing and Urban Development?", "answer": "As of 2023, the current Secretary of Housing and Urban Development is Marcia Fudge."},
+{"question": "What is the name of the current Administrator of the Environmental Protection Agency?", "answer": "As of 2023, the current Administrator of the Environmental Protection Agency is Michael Regan."},
+{"question": "What is the name of the current Director of the National Aeronautics and Space Administration?", "answer": "As of 2023, the current Director of the National Aeronautics and Space Administration is Bill Nelson."},
+{"question": "What is the name of the current Chairman of the Federal Reserve?", "answer": "As of 2023, the current Chairman of the Federal Reserve is Jerome Powell."},
+{"question": "What is the name of the current Chairman of the Securities and Exchange Commission?", "answer": "As of 2023, the current Chairman of the Securities and Exchange Commission is Gary Gensler."},
+{"question": "What is the name of the current Director of the Federal Bureau of Investigation?", "answer": "As of 2023, the current Director of the Federal Bureau of Investigation is Christopher Wray."},
+{"question": "What is the name of the current Administrator of the Small Business Administration?", "answer": "As of 2023, the current Administrator of the Small Business Administration is Dilawar Syed."},
+{"question": "What is the name of the current Surgeon General of the United States?", "answer": "As of 2023, the current Surgeon General of the United States is Vivek Murthy."},
+{"question": "What is the name of the current Director of the Central Intelligence Agency?", "answer": "As of 2023, the current Director of the Central Intelligence Agency is William J. Burns."},
+{"question": "What is the name of the current Chief of Staff of the United States Army?", "answer": "As of 2023, the current Chief of Staff of the United States Army is General James C. McConville."},
+{"question": "What is the name of the current Commandant of the Marine Corps?", "answer": "As of 2023, the current Commandant of the Marine Corps is General David H. Berger."},
+{"question": "What is the name of the current Chief of Naval Operations?", "answer": "As of 2023, the current Chief of Naval Operations is Admiral Michael M. Gilday."},
+{"question": "What is the name of the current Chief of Staff of the United States Air Force?", "answer": "As of 2023, the current Chief of Staff of the United States Air Force is General Charles Q. Brown Jr."},
+{"question": "What is the name of the current Director of National Intelligence?", "answer": "As of 2023, the current Director of National Intelligence is Avril Haines."},
+{"question": "What is the name of the current United States Trade Representative?", "answer": "As of 2023, the current United States Trade Representative is Katherine Tai."},
+{"question": "What is the name of the current Director of the Office of Management and Budget?", "answer": "As of 2023, the current Director of the Office of Management and Budget is Shalanda Young."},
+{"question": "What is the name of the current Chairman of the Joint Chiefs of Staff?", "answer": "As of 2023, the current Chairman of the Joint Chiefs of Staff is General Mark A. Milley."},
+{"question": "What is the name of the current United States Ambassador to the United Nations?", "answer": "As of 2023, the current United States Ambassador to the United Nations is Linda Thomas-Greenfield."},
+{"question": "What is the name of the current White House Chief of Staff?", "answer": "As of 2023, the current White House Chief of Staff is Ron Klain."},
+{"question": "What is the name of the current United States National Security Advisor?", "answer": "As of 2023, the current United States National Security Advisor is Jake Sullivan."},
+{"question": "What is the name of the current United States Surgeon General?", "answer": "As of 2023, the current United States Surgeon General is Vivek Murthy."},
+{"question": "What is the name of the current United States Trade Representative?", "answer": "As of 2023, the current United States Trade Representative is Katherine Tai."},
+{"question": "What is the name of the current United States Attorney for your district?", "answer": "The answer will vary depending on the district."},
+{"question": "What is the name of the current United States Marshal for your district?", "answer": "The answer will vary depending on the district."},
+{"question": "What is the name of the current United States Postal Service Postmaster General?", "answer": "As of 2023, the current United States Postal Service Postmaster General is Louis DeJoy."},
+{"question": "What is the name of the current Administrator of the Centers for Medicare and Medicaid Services?", "answer": "As of 2023, the current Administrator of the Centers for Medicare and Medicaid Services is Chiquita Brooks-LaSure."},
+{"question": "What is the name of the current Director of the Federal Emergency Management Agency?", "answer": "As of 2023, the current Director of the Federal Emergency Management Agency is Deanne Criswell."},
+{"question": "What is the name of the current Director of the United States Citizenship and Immigration Services?", "answer": "As of 2023, the current Director of the United States Citizenship and Immigration Services is Ur Mendoza Jaddou."}
+
 ]

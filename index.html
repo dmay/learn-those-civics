@@ -36,24 +36,33 @@
         }
 
         .card-container {
-            perspective: 1000px;
-            position: relative;
-            width: 80vw;
-            height: 80vh;
-        }
+        perspective: 1000px;
+        position: relative;
+        width: 80vw;
+        height: 80vh;
+    }
 
-        .card-flip {
-            transform: rotateY(180deg);
-        }
+    .card-container .card {
+        transition: transform 0.5s;
+    }
 
-        .card-slide {
-            animation: slide 0.5s;
-        }
+    .card-container:hover .question {
+        transform: rotateY(180deg);
+    }
 
-        @keyframes slide {
-            from { transform: translateY(100%); }
-            to { transform: translateY(0%); }
-        }
+    .card-container .answer {
+        transform: rotateY(180deg);
+        animation: slide 0.5s;
+    }
+
+    .card-container:hover .answer {
+        transform: rotateY(0deg);
+    }
+
+    @keyframes slide {
+        from { transform: translateY(100%) rotateY(180deg); }
+        to { transform: translateY(0%) rotateY(180deg); }
+    }
     </style>
 </head>
 <body>

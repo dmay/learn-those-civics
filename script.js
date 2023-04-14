@@ -9,20 +9,20 @@ fetch("questions.json")
     });
 
 function nextQuestion() {
-    const questionElement = document.getElementById("question");
-    const answerElement = document.getElementById("answer");
-
-    questionElement.classList.remove("card-flip");
-    answerElement.classList.remove("card-flip");
-    answerElement.classList.add("card-slide");
+    const cardContainer = document.querySelector(".card-container");
+    cardContainer.classList.remove("show-answer");
 
     currentQuestionIndex = Math.floor(Math.random() * questions.length);
     const question = questions[currentQuestionIndex].question;
     const answer = questions[currentQuestionIndex].answer;
 
+    const questionElement = document.getElementById("question");
+    const answerElement = document.getElementById("answer");
+
     questionElement.textContent = question;
     answerElement.textContent = answer;
 }
+    
 
 function showAnswer() {
     const questionElement = document.getElementById("question");
@@ -34,11 +34,11 @@ function showAnswer() {
 }
 
 const cardContainer = document.querySelector(".card-container");
-cardContainer.addEventListener("click", () => {
-    const questionElement = document.getElementById("question");
-    if (!questionElement.classList.contains("card-flip")) {
-        showAnswer();
-    } else {
+ccardContainer.addEventListener("click", () => {
+    if (cardContainer.classList.contains("show-answer")) {
         nextQuestion();
+    } else {
+        cardContainer.classList.add("show-answer");
     }
 });
+

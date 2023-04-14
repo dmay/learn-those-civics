@@ -36,33 +36,31 @@
         }
 
         .card-container {
-        perspective: 1000px;
-        position: relative;
-        width: 80vw;
-        height: 80vh;
-    }
+            perspective: 1000px;
+            position: relative;
+            width: 80vw;
+            height: 80vh;
+        }
 
-    .card-container .card {
-        transition: transform 0.5s;
-    }
+        .card-container .card {
+            transition: transform 0.5s;
+        }
 
-    .card-container:hover .question {
-        transform: rotateY(180deg);
-    }
+        .card-container:not(.show-answer) .question {
+            transform: rotateY(0deg);
+        }
 
-    .card-container .answer {
-        transform: rotateY(180deg);
-        animation: slide 0.5s;
-    }
+        .card-container.show-answer .question {
+            transform: rotateY(180deg);
+        }
 
-    .card-container:hover .answer {
-        transform: rotateY(0deg);
-    }
+        .card-container:not(.show-answer) .answer {
+            transform: rotateY(180deg) translateY(100%);
+        }
 
-    @keyframes slide {
-        from { transform: translateY(100%) rotateY(180deg); }
-        to { transform: translateY(0%) rotateY(180deg); }
-    }
+        .card-container.show-answer .answer {
+            transform: rotateY(0deg) translateY(0%);
+        }
     </style>
 </head>
 <body>

@@ -15,6 +15,7 @@ function nextQuestion() {
     currentQuestionIndex = Math.floor(Math.random() * questions.length);
     const question = questions[currentQuestionIndex].question;
     const answer = questions[currentQuestionIndex].answer;
+    console.log(`Loaded question: ${currentQuestionIndex+1}`);
 
     const questionElement = document.getElementById("question");
     const answerElement = document.getElementById("answer");
